@@ -1,0 +1,243 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.home-content h2 {
+    font-size: 10;
+}
+
+.home-content span {
+    color: #ff0000;
+}
+
+.home-content .hire-btn {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-content .hire-btn:hover {
+    background: #fff;
+    color: #ff0000;
+}
+
+.home-img img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #ff0000;
+}
+
+#services, #skills, #education, #contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-container, .skill-container, .timeline {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box, .skill-box, .event {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.service-box:hover, .skill-box:hover, .event:hover {
+    background: #ff0000;
+    color: #fff;
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    background: transparent;
+    color: #fff;
+}
+
+form button {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #fff;
+    color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #111;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.home-content h2 {
+    font-size: 50px;
+}
+
+#changing-text {
+    font-size: 32px;
+    color: red;
+}
+.im{
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+/* Services */
+#services, #skills, #education, #contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.service-container, .skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.service-box, .skill-box {
+    background-color: #222;
+    padding: 15px;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+.service-box:hover, .skill-box:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Contact Form */
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+}
